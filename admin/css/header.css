@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px !important;
+    color: #515151 !important;
+}
+
+#wpcontent {
+    padding-left: 0 !important;
+}
+
+.fs-8 {
+    font-size: 0.7rem !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+.fw-700 {
+    font-weight: 700 !important;
+}
+.fs-12 {
+    font-size: 12px !important;
+}
+.fs-24 {
+    font-size: 24px !important;
+}
+.fs-20 {
+    font-size: 20px !important;
+}
+.fs-10 {
+    font-size: 10px !important;
+}
+.rich-blue {
+    border-bottom: 2px solid #1F5166 !important;
+}
+
+.badge-dark-blue-bg {
+    background-color: #209EE1 !important;
+}
+
+@keyframes bouncing{
+    0%{top:-6px}
+    100%{top:-10px}
+}
+.btn-soft-primary{ background-color: #1967D2 !important; color: #fff !important; border-color: #1967D2 !important; }
+.btn-soft-primary:hover, .btn-soft-primary:focus, .btn-soft-primary:active, .btn-soft-primary.active, .open>.dropdown-toggle.btn-soft-primary {
+    color: #fff !important;
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important; /*set the color you want here*/
+    box-shadow: none !important;
+}
+.nav-item .nav-link {
+    box-shadow: none !important;
+}
+.card-channel {
+    background-color: #F1F1F1 !important;
+    background: #F1F1F1 !important;
+    cursor: pointer !important;
+}
+.connected {
+    background-color: #FFFFFF !important;
+    background: #FFFFFF !important;
+}
+.mt-6 {
+    margin-top: 2rem !important;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.text-primary {
+    color: #1967D2 !important;
+}
+
+.bg-primary {
+    background-color: #1967D2 !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+.text-grey {
+    color: #5F6368 !important;
+}
+.text-header {
+    color: #474747 !important;
+}
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img, a:focus .plugin-icon {
+    box-shadow: none;
+    outline: none;
+}

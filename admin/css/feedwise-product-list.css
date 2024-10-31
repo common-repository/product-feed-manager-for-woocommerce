@@ -1,0 +1,95 @@
+@charset 'UTF-8';
+body { background: #f0f0f1; }
+
+  input[type=radio]:checked::before {
+    content: "";
+    border-radius: 50%;
+    width: .5rem;
+    height: .5rem;
+    margin: .1875rem;
+    background-color: #fff;
+    line-height: 1.14285714;
+}
+.imgChannel-table{
+    width: 24px;
+    height: 24px;
+}
+.tableImage {
+    width: 48px;
+    height: 48px;
+    radius: 4px
+}
+.btn-custom-secondary {
+    border: 1px solid #ccc;
+}    
+.btn:focus {
+    box-shadow: none;
+}
+.text-title {
+    color: #2A2D2F;
+}
+.price-strike {
+    text-decoration: line-through;
+    color: #2A2D2F; /* Optional: Change the color of the strikethrough price */
+}
+.line-height {
+    line-height: 16px;
+}
+.Instock { color:#09bd83 }
+.Outofstock { color: #f43e56 }
+
+.inprogress { 
+    color: #209EE1;
+    border: 1px solid #c8e3f3;
+    border-radius: 50%;
+    background-color: #c8e3f3;
+}
+.draft { 
+    border: 1px solid #f5e0aa;
+    border-radius: 50%;
+    color: #DCA310;
+    background-color: #f5e0aa;
+}
+.synced { 
+    border: 1px solid #c3f6e7;
+    border-radius: 50%;
+    color: #09bd83;
+    background-color: #c3f6e7;
+}
+.failed { 
+    background-color: #f8d9dd; 
+    border-radius: 50%;
+    color: #f43e56; 
+    border: 1px solid #f8d9dd;
+}
+.loading-row {
+    position: relative;
+    overflow: hidden; /* Prevent overflow from the animated border */
+}
+
+.loading-row::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 3px; /* Height of the border */
+    background: linear-gradient(to right, #3498db, #387ef5, #387ef5, #387ef5); /* Gradient colors */
+    animation: loading 2s linear infinite; /* Animation properties */
+}
+.text-secondary { color: #5f6368 !important; }
+@keyframes loading {
+    0% {
+        left: -50%;
+    }
+    100% {
+        left: 50%;
+    }
+}
+.btn-outline-primary.disabled {
+    border-color: #9E9E9E;
+    color: #9E9E9E;
+}
+.btn-grey {
+  background-color: #ccc;
+}
